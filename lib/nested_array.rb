@@ -26,8 +26,9 @@ end
 
 def sorted_matrix
   fruits = [["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"], ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]]
-  sorted_matrix = fruits.sort
-  return sorted_matrix
+  fruits.sort
+  return fruits
+  
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
